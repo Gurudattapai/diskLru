@@ -1,0 +1,7 @@
+/*DROP TABLE IF EXISTS Cache;
+
+CREATE TABLE Cache (
+    cache_id INT AUTO_INCREMENT PRIMARY KEY,
+    file_path VARCHAR(100) NOT NULL,
+    max_size INT NOT NULL
+);*/

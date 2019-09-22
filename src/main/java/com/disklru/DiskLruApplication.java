@@ -1,0 +1,13 @@
+package com.disklru;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class DiskLruApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(DiskLruApplication.class, args);
+	}
+
+}
